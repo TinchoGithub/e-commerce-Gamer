@@ -1,0 +1,168 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    background: var(--background-blanco);
+    color: var(--fuente-ceniza-oscuro);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 3px 1px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.14);
+    
+    
+}
+
+.logo{
+    width: 70px;
+    height: auto; 
+}
+
+.buscar{
+    width: 100px;
+    height: 20px;
+    color: var(--background-blanco);
+    outline: none;
+    padding: 5px;
+    font-size: 12px;
+    border: 2px solid var(--color-primario);
+    color: var(--fuente-ceniza-oscuro);
+
+}
+
+.buscar:focus{
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 3px 1px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.14);
+}
+
+.logo-buscar{
+    position: absolute;
+    top: 3.8%;
+    right: 36%;
+    left: 60%;
+    color: var(--fuente-ceniza-oscuro);
+}
+
+.menu__login, .enviar{
+    background: var(--background-blanco) ;
+    width: 70px;
+    height: 2rem;
+    border: 1px solid var(--color-primario);
+    font-size: 12px;
+    color: var(--color-primario);
+    padding: 5px;
+    transition: all 1s;
+}
+
+.menu__login:hover, .enviar:hover{
+    cursor: pointer;
+    background: var(--color-primario);
+    color: var(--background-blanco);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 3px 1px 0 rgba(0,0,0,.12),0 2px 2px 0 rgba(0,0,0,.14);
+}
+
+.logo-user{
+    color: var(--background-primario);
+    font-size: 14px;
+}
+
+.logo-user:hover{
+    color: var(--background-blanco);
+}
+
+/* Responsive */
+
+
+@media only screen and (min-width: 340px) {
+
+    .buscar{
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    .buscar{
+        width: 130px;
+    }
+}
+
+@media only screen and (min-width: 470px) {
+
+    .buscar{
+        width: 140px;
+    }
+}
+
+@media only screen and (min-width: 530px) {
+
+    .buscar{
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 580px) {
+
+    .buscar{
+        width: 160px;
+    }
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+    
+
+    .buscar{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .menu__login{
+        width: 90px;
+        height: 2.5rem;
+        font-size: 14px ;
+    }
+    
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+    .buscar{
+        width: 220px;
+    }
+ }
+ 
+ @media only screen and (min-width: 866px) {
+
+    .buscar{
+        width: 230px;
+    }
+}
+
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+    .buscar{
+        width: 300px;
+        font-size: 16px;
+    }
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    
+    .buscar{
+        width: 350px;
+    }
+
+
+ } 
+
+ @media only screen and (min-width: 1400px) {
+    
+   
+   
+
+ } 
